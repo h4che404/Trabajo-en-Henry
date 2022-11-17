@@ -13,3 +13,6 @@ num = 9123.123423
 #6
 print(type(num))
 #7
+palabra = "juan"
+mensaje = palabra.find("a")
+print (mensaje)
