@@ -16,3 +16,9 @@ print(type(num))
 palabra = "juan"
 mensaje = palabra.find("a")
 print (mensaje)
+#8
+x = 0
+while x < 3:
+    x += 1
+    print(x)
+print("fin")
