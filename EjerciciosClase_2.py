@@ -31,8 +31,10 @@ while x < 3:
 print("fin")
 #9
 print("--------------------------------")
-for i  in cadena("a"):
+for i  in range(2):
     nombre1 = input("ingrese un nombre")
     edad= input ("ingrese su edad")
     print("Hola {}, usted tiene {}?".format(nombre1, edad))
 print("fin")
+#10
+print("--------------------------------")
