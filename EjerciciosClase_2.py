@@ -38,3 +38,25 @@ for i  in range(2):
 print("fin")
 #10
 print("--------------------------------")
+print("listas y vectores")
+
+nombres = ['juan', 'karla', 'ricardo']
+
+for i in range(11):
+    if i % 3 == 0 :
+        print(i)
+
+print("--------------------------------")
+print("Listas y tuplas ()")
+
+frutas = ("Naranja", "Pera", "Manzana")
+
+for fruta in frutas:
+    print(fruta)
+
+frutaLista = list(frutas)
+frutaLista[0] = "Mandarina"
+frutas = tuple(frutaLista) 
+
+for fruta in frutas:
+    print(fruta)
