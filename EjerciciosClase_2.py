@@ -1,3 +1,4 @@
+'''
 #1
 var = 1
 print(var)
@@ -69,3 +70,45 @@ tupla = (13, 1, 8, 3, 2, 5, 8)
 for elemento in tupla:
     if (elemento < 5):
         print(elemento)
+'''
+#Definir una lista de tipo String
+'''
+nombres = ['juan', 'Karla', 'Ricardo', 'Maria']
+#imprimimos los nombres
+print(nombres)
+#imprimimos solo los nombres que seleccionamos
+print(nombres[0])
+print(nombres[1:3])
+nombres[3] = 'Marcos'
+print(nombres[3]) 
+
+for i in nombres:
+    print(i)
+
+'''
+
+#Diccionario
+Diccionario = {
+    'IDE':"intregrated Development Environment",
+    'OOP':"Object Oriented Programming"
+}
+
+print(Diccionario)
+
+#Largo
+
+print(len(Diccionario))
+
+for ID, Informacion in Diccionario.items():
+    print(ID, Informacion)
+
+for ID in Diccionario.keys():
+    print(ID)
+
+for Informacion in Diccionario.values():
+    print(Informacion)
+
+print("IDE" in Diccionario)
+
+Diccionario["PK"] = "Prymary key"
+

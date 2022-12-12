@@ -22,11 +22,20 @@ for i in range(n):
 print("el valor total de todos los numeros ingresados es:", suma)
 '''
 
-Ingresos = [2500, 4000, 1000]
-total = 0
-for i in range(2):
-    total += Ingresos[i]
-print("Estos son mis ingresos del mes:", total)
-print("Mis gastos fueron en: Navidad Green, Salir a comer y tomar helado, pagar world.")
-print("Cuanta plata me queda?")
-print("-1000")
+#Definir una lista de tipo String
+'''
+nombres = ['juan', 'Karla', 'Ricardo', 'Maria']
+#imprimimos los nombres
+print(nombres)
+#imprimimos solo los nombres que seleccionamos
+print(nombres[0])
+print(nombres[1:3])
+'''
+
+#Crear un For que recorra del 3 a 10 incrementando de 2 en 2
+'''
+for i in range(3,11,2):
+    print(i)
+
+'''
+
