@@ -67,7 +67,7 @@ for A in resu:
 '''
 
 #Funcion para ingresar 1 o mas diccionarios y devolverlos en pantalla
-
+'''
 diccionarios = {
     "JUAN" : "Nombre que sobre pasa los limites"
 }
@@ -77,3 +77,23 @@ def listaDiccionario(**Terminos):
         print(f"{ID}: {informacion }")
 
 listaDiccionario(JUAN = "Nombre que sobre pasa los limites")
+'''
+#Funcion que admite mas de 1 valor y que no permite algo no iterrable
+'''
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+
+nombres=['juan', 'karla', 'guillermo']
+'''
+
+#Factorial de 5
+
+def factorial (numero):
+    if numero == 1:
+        return 1
+    else:
+        return numero * factorial(numero - 1)
+    
+resultado = factorial(5)
+print(f'El factorial es: {resultado}')
