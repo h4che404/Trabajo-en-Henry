@@ -8,7 +8,7 @@ for i in range(n):
 '''
 
 #Algoritmo para calcular la suma de los pares e impares que ingresemos
-
+'''
 n = int(input("ingrese la cantidad de numeros:"))
 suma = 0
 for i in range(n):
@@ -20,7 +20,7 @@ for i in range(n):
     suma += num1
 
 print("el valor total de todos los numeros ingresados es:", suma)
-
+'''
 
 #Definir una lista de tipo String
 '''

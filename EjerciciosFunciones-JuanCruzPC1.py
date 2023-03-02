@@ -130,3 +130,64 @@ print(squares)  # [1, 4, 9, 16, 25]
 
 '''
 
+#Funcion recursiva para sacar el factorial de 5
+'''
+def factorial(numero):
+    if numero == 1:
+        return 1
+    else: 
+        return numero * factorial(numero-1)
+resultado = factorial(5)
+print (f'{resultado}')
+
+'''
+
+#ingresa un numero y hace una cuenta regresiva
+'''
+input("ingrese")
+ingreso = int(input("ingrese un numero: "))
+
+def Cuenta (var):
+    print(var)
+    if (var == 1):
+        return 1
+    else:
+        return Cuenta(var -1)
+
+Cuenta(ingreso)
+'''
+
+#Calculadora de impuestos
+ingreso = []
+ingreso = int(input("Ingrese el monto a pagar: "))
+ingreso.append = int(input("ingrese el impuesto aplicable: "))
+
+
+def calculadora (*valor):
+    for num in valor:
+        print(num)
+
+
+resultado = calculadora(ingreso)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
