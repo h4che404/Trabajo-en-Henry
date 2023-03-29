@@ -14,6 +14,7 @@ try:
             entrada = input("proporciona los id\'s a buscar (separados por comas): ")
             llaves_primarias = (tuple(entrada.split(",")),)
             cursor.execute(sentencia, (llaves_primarias,))
+            #! FetchAll es un metodo que permite recuperar todos los archivos
             registros = cursor.fetchall()
             for registro in registros:
                 print(registro)
